@@ -7,16 +7,13 @@ try:
     b = int(input_list[2])
     if mark == "+":
         result = a + b
-        print(result)
     elif mark == "/":
         result = a / b
-        print(result)
     elif mark == "-":
         result = a - b
-        print(result)
     elif mark == "*":
         result = a * b
-        print(result)
+    print(result)
 except ZeroDivisionError as Z:
     print(Z, type(Z))
     print("Делить на ноль нельзя!")
